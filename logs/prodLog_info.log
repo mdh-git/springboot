@@ -1,0 +1,58 @@
+2018-07-23 17:02:31 1205 [main] INFO  com.mdh.MdhServiceApplicationTests - Starting MdhServiceApplicationTests on mdh-PC with PID 1828 (started by mdh in D:\workspaceboot\mdh-service)
+2018-07-23 17:02:31 1207 [main] INFO  com.mdh.MdhServiceApplicationTests - The following profiles are active: prod
+2018-07-23 17:02:31 1257 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7d61eb55: startup date [Mon Jul 23 17:02:31 CST 2018]; root of context hierarchy
+2018-07-23 17:02:33 3550 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 17:02:33 3835 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7d61eb55: startup date [Mon Jul 23 17:02:31 CST 2018]; root of context hierarchy
+2018-07-23 17:02:33 3948 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.mdh.controller.TestController.hello()
+2018-07-23 17:02:33 3953 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-23 17:02:33 3954 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-23 17:02:33 3995 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 17:02:33 3996 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 17:02:34 5051 [main] INFO  com.mdh.MdhServiceApplicationTests - Started MdhServiceApplicationTests in 4.432 seconds (JVM running for 5.47)
+2018-07-23 17:02:35 5238 [Thread-6] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@7d61eb55: startup date [Mon Jul 23 17:02:31 CST 2018]; root of context hierarchy
+2018-07-23 17:02:44 862  [main] INFO  com.mdh.MdhServiceApplication - Starting MdhServiceApplication on mdh-PC with PID 6272 (D:\workspaceboot\mdh-service\target\classes started by mdh in D:\workspaceboot\mdh-service)
+2018-07-23 17:02:44 869  [main] INFO  com.mdh.MdhServiceApplication - The following profiles are active: prod
+2018-07-23 17:02:44 943  [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@398dada8: startup date [Mon Jul 23 17:02:44 CST 2018]; root of context hierarchy
+2018-07-23 17:02:46 2883 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2018-07-23 17:02:46 2899 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2018-07-23 17:02:46 2909 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-07-23 17:02:46 2910 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-23 17:02:46 2915 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\java_1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\java\java_1.8.0_101\bin;D:\java\java_1.8.0_101\jre\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Program Files\nodejs\;D:\Program Files\nodejs\node_modules\npm\bin;.]
+2018-07-23 17:02:46 2994 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-07-23 17:02:46 2994 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2051 ms
+2018-07-23 17:02:46 3128 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-07-23 17:02:46 3133 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-23 17:02:46 3133 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-23 17:02:46 3133 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-23 17:02:46 3133 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-23 17:02:46 3252 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 17:02:46 3458 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@398dada8: startup date [Mon Jul 23 17:02:44 CST 2018]; root of context hierarchy
+2018-07-23 17:02:46 3511 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.mdh.controller.TestController.hello()
+2018-07-23 17:02:46 3516 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-23 17:02:46 3516 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-23 17:02:46 3544 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 17:02:46 3544 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 17:02:47 3931 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-23 17:02:47 3933 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-23 17:02:47 3938 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-23 17:02:47 3948 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2018-07-23 17:02:47 3960 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-07-23 17:02:47 3983 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2018-07-23 17:02:47 3986 [main] INFO  com.mdh.MdhServiceApplication - Started MdhServiceApplication in 3.737 seconds (JVM running for 4.318)
+2018-07-23 17:02:55 12406 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-23 17:02:55 12407 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-23 17:02:55 12423 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-07-23 17:02:55 12443 [http-nio-8082-exec-1] INFO  com.mdh.controller.TestController - dev
+2018-07-23 18:01:07 1285 [main] INFO  com.mdh.MdhServiceApplicationTests - Starting MdhServiceApplicationTests on mdh-PC with PID 6944 (started by mdh in D:\workspaceboot\mdh-service)
+2018-07-23 18:01:07 1286 [main] INFO  com.mdh.MdhServiceApplicationTests - The following profiles are active: prod
+2018-07-23 18:01:07 1380 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@222a59e6: startup date [Mon Jul 23 18:01:07 CST 2018]; root of context hierarchy
+2018-07-23 18:01:10 3561 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 18:01:10 3918 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@222a59e6: startup date [Mon Jul 23 18:01:07 CST 2018]; root of context hierarchy
+2018-07-23 18:01:10 4036 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.mdh.controller.TestController.hello()
+2018-07-23 18:01:10 4041 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-23 18:01:10 4042 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-23 18:01:10 4086 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 18:01:10 4087 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 18:01:11 5016 [main] INFO  com.mdh.MdhServiceApplicationTests - Started MdhServiceApplicationTests in 4.34 seconds (JVM running for 5.439)
+2018-07-23 18:01:11 5227 [Thread-6] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@222a59e6: startup date [Mon Jul 23 18:01:07 CST 2018]; root of context hierarchy
+2018-07-23 18:03:34 3651462 [http-nio-8082-exec-4] INFO  com.mdh.controller.TestController - dev

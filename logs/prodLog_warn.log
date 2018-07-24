@@ -1,0 +1,5 @@
+2018-07-23 17:02:32 2273 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mdh]' package. Please check your configuration.
+2018-07-23 17:02:45 2032 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mdh]' package. Please check your configuration.
+2018-07-23 17:02:55 12443 [http-nio-8082-exec-1] WARN  com.mdh.controller.TestController - warn
+2018-07-23 18:01:09 2590 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mdh]' package. Please check your configuration.
+2018-07-23 18:03:34 3651462 [http-nio-8082-exec-4] WARN  com.mdh.controller.TestController - warn
