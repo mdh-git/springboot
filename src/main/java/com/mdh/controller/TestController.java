@@ -18,6 +18,7 @@ public class TestController {
         logger.debug("debug");
         logger.error("error");
         logger.warn("warn");
+        System.out.print("hello");
         return "Hello Spring Boot !!!";
     }
 }
