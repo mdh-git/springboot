@@ -22,6 +22,11 @@ public class TestController {
         System.out.print("hello");
         System.out.print("hello");
         System.out.print("大幅v大v地方");
+        System.out.print("hello");
+        System.out.print("大幅v大v地方");
+
+
+        System.out.print("大幅v大v地方");System.out.print("大幅v大v地方");System.out.print("大幅v大v地方");
         return "Hello Spring Boot !!!";
     }
 }
