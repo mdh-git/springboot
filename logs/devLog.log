@@ -158,3 +158,71 @@
 2018-07-23 16:22:07 26667 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
 2018-07-23 16:22:07 26685 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms 
 2018-07-23 16:22:07 26708 [http-nio-8081-exec-1] INFO  com.mdh.controller.TestController - dev 
+2018-11-07 11:01:42 976  [main] INFO  com.mdh.MdhServiceApplication - Starting MdhServiceApplication on sh-maodh-01 with PID 14284 (D:\mdhProjects\springboot\target\classes started by madonghao in D:\mdhProjects\springboot) 
+2018-11-07 11:01:42 979  [main] INFO  com.mdh.MdhServiceApplication - The following profiles are active: dev 
+2018-11-07 11:01:42 1112 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3835c46: startup date [Wed Nov 07 11:01:42 CST 2018]; root of context hierarchy 
+2018-11-07 11:01:44 3063 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http) 
+2018-11-07 11:01:44 3081 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2018-11-07 11:01:44 3097 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-11-07 11:01:44 3097 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31 
+2018-11-07 11:01:44 3109 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;D:\Program Files\Git\cmd;C:\Users\madonghao\AppData\Local\Microsoft\WindowsApps;D:\Programs\Microsoft VS Code\bin;D:\Programs\Fiddler;D:\lechebang-maven-3.2.2\apache-maven-3.2.2\bin;;.] 
+2018-11-07 11:01:44 3209 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2018-11-07 11:01:44 3209 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2097 ms 
+2018-11-07 11:01:45 3391 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+2018-11-07 11:01:45 3395 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-11-07 11:01:45 3395 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-11-07 11:01:45 3395 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-11-07 11:01:45 3395 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-11-07 11:01:45 3509 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-11-07 11:01:45 3802 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3835c46: startup date [Wed Nov 07 11:01:42 CST 2018]; root of context hierarchy 
+2018-11-07 11:01:45 3908 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.mdh.controller.TestController.hello() 
+2018-11-07 11:01:45 3912 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-11-07 11:01:45 3913 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-11-07 11:01:45 4017 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-11-07 11:01:45 4020 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-11-07 11:01:46 4376 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-11-07 11:01:46 4377 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+2018-11-07 11:01:46 4381 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource] 
+2018-11-07 11:01:46 4389 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2018-11-07 11:01:46 4399 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-11-07 11:01:46 4412 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '' 
+2018-11-07 11:01:46 4415 [main] INFO  com.mdh.MdhServiceApplication - Started MdhServiceApplication in 4.132 seconds (JVM running for 5.953) 
+2018-11-07 11:03:17 96127 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-11-07 11:03:17 96127 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-11-07 11:03:17 96148 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms 
+2018-11-07 11:03:25 104320 [http-nio-8081-exec-3] INFO  com.mdh.controller.TestController - dev 
+2018-11-07 11:04:21 159363 [http-nio-8081-exec-5] INFO  com.mdh.controller.TestController - dev 
+2018-11-07 11:04:25 163569 [http-nio-8081-exec-6] INFO  com.mdh.controller.TestController - dev 
+2018-11-07 11:05:45 624  [main] INFO  com.mdh.MdhServiceApplication - Starting MdhServiceApplication on sh-maodh-01 with PID 11344 (D:\mdhProjects\springboot\target\classes started by madonghao in D:\mdhProjects\springboot) 
+2018-11-07 11:05:45 627  [main] INFO  com.mdh.MdhServiceApplication - The following profiles are active: dev 
+2018-11-07 11:05:45 690  [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a192cfe: startup date [Wed Nov 07 11:05:45 CST 2018]; root of context hierarchy 
+2018-11-07 11:05:47 2840 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http) 
+2018-11-07 11:05:47 2858 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+2018-11-07 11:05:47 2868 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-11-07 11:05:47 2869 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31 
+2018-11-07 11:05:47 2879 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;D:\Program Files\Git\cmd;C:\Users\madonghao\AppData\Local\Microsoft\WindowsApps;D:\Programs\Microsoft VS Code\bin;D:\Programs\Fiddler;D:\lechebang-maven-3.2.2\apache-maven-3.2.2\bin;;.] 
+2018-11-07 11:05:47 2982 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2018-11-07 11:05:47 2982 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2292 ms 
+2018-11-07 11:05:47 3132 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/] 
+2018-11-07 11:05:47 3136 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-11-07 11:05:47 3137 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-11-07 11:05:47 3137 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-11-07 11:05:47 3137 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-11-07 11:05:47 3246 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-11-07 11:05:47 3463 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a192cfe: startup date [Wed Nov 07 11:05:45 CST 2018]; root of context hierarchy 
+2018-11-07 11:05:47 3526 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.mdh.controller.TestController.hello() 
+2018-11-07 11:05:47 3530 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-11-07 11:05:47 3530 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-11-07 11:05:48 3621 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-11-07 11:05:48 3621 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-11-07 11:05:48 3961 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-11-07 11:05:48 3962 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure 
+2018-11-07 11:05:48 3966 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource] 
+2018-11-07 11:05:48 3975 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+2018-11-07 11:05:48 3985 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-11-07 11:05:48 4002 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '' 
+2018-11-07 11:05:48 4006 [main] INFO  com.mdh.MdhServiceApplication - Started MdhServiceApplication in 3.828 seconds (JVM running for 4.309) 
+2018-11-07 11:06:14 29762 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-11-07 11:06:14 29762 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-11-07 11:06:14 29780 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms 
+2018-11-07 11:06:14 29804 [http-nio-8081-exec-1] INFO  com.mdh.controller.TestController - dev 

@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by mdh on 2018/7/23.
+ *
+ * @author mdh
+ * @date 2018/7/23
  */
 @RestController
 public class TestController {
@@ -18,6 +20,6 @@ public class TestController {
         logger.debug("debug");
         logger.error("error");
         logger.warn("warn");
-        return "Hello Spring Boot !!!";
+        return "Hello Spring Boot !!!!";
     }
 }

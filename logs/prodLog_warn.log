@@ -3,3 +3,8 @@
 2018-07-23 17:02:55 12443 [http-nio-8082-exec-1] WARN  com.mdh.controller.TestController - warn
 2018-07-23 18:01:09 2590 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mdh]' package. Please check your configuration.
 2018-07-23 18:03:34 3651462 [http-nio-8082-exec-4] WARN  com.mdh.controller.TestController - warn
+2018-11-07 11:07:51 1614 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mdh]' package. Please check your configuration.
+2018-11-07 11:57:33 2046 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mdh]' package. Please check your configuration.
+2018-11-07 11:57:35 3496 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2018-11-07 11:58:13 1789 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mdh]' package. Please check your configuration.
+2018-11-07 11:58:42 30833 [http-nio-8082-exec-1] WARN  com.mdh.controller.TestController - warn
